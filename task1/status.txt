@@ -17,3 +17,34 @@ Untracked files:
 
 nothing added to commit but untracked files present (use "git add" to track)
 Commit pls///...
+On branch master
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        log.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+D:\Учеба\УП\vanmrprjct1>git push origin master
+Logon failed, use ctrl+c to cancel basic credential prompt.
+Username for 'https://github.com': BrianOkonner
+Password for 'https://BrianOkonner@github.com':
+Enumerating objects: 10, done.
+Counting objects: 100% (10/10), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (8/8), done.
+Writing objects: 100% (10/10), 1.32 KiB | 673.00 KiB/s, done.
+Total 10 (delta 0), reused 0 (delta 0)
+remote:
+remote: Create a pull request for 'master' on GitHub by visiting:
+remote:      https://github.com/BrianOkonner/UchPract2/pull/new/master
+remote:
+To https://github.com/BrianOkonner/UchPract2
+ * [new branch]      master -> master
+
+D:\Учеба\УП\vanmrprjct1>git status
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   task1/status.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
